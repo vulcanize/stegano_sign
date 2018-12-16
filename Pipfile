@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+eth-keys = "==0.2.0b3"
+pysha3 = "==1.0.2"
+python-baseconv = "==1.2.1"
+requests = "==2.4.3"
+stegano = "==0.8.6"
+
+[requires]
+python_version = "3.7"
