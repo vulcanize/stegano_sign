@@ -35,7 +35,8 @@ When verifing the identity:
 
 At this point Verifier knows whatever it needs to know about Prover and cannot
 impersonate Prover when given a new 5 because they will be unable to generate
-the corresponding 6.
+the corresponding 6. Furthermore, if the verifier tampers with the image, it
+will no longer match the published hash.
 
 This protocol allows for the prover to add aditional security by encoding
 multiple signatures into the same Vessel image. Using the naive techniques of
